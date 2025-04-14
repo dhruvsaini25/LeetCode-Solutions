@@ -1,7 +1,7 @@
 class Solution {
     public:
         int missingNumber(vector<int>& nums) {
-            //better approach using hash
+            //better approach using HASH
             int n=nums.size();
             vector<int>hash(n+1,0);
             for (int i=0;i<n;i++){
