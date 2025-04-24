@@ -9,7 +9,7 @@ class Solution {
                 if (nums[i]<0){
                     answer[negindex]=nums[i];
                     negindex+=2;
-                } else{
+                }else{
                     answer[posindex]=nums[i];
                     posindex+=2;
                 }
