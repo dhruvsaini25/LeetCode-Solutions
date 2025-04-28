@@ -14,6 +14,5 @@ public:
                 matrix[i][j]=rotated[i][j];
             }
         }
-    // return rotated;
     }
 };
