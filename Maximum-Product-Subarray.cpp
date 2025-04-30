@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        //better approach 1
+        //optimal approach 1
         int n=nums.size();
         int result=INT_MIN;
         int pre=1, suff=1;
