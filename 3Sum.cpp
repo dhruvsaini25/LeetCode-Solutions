@@ -1,6 +1,8 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
+        //optimal approach
+        //brute and better fail in test cases
         int n=nums.size();
         vector<vector<int>>ans;
         sort(nums.begin(), nums.end());
