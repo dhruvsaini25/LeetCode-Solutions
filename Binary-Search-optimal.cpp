@@ -2,6 +2,7 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
         //brute force
+        //iterative method
         int n=nums.size();
         int low=0, high=n-1;
         while (low<=high) {
